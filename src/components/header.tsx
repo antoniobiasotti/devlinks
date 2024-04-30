@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Header() {
     return (
-        <div className="flex p-4 font-extrabold text-2xl border-b-2 border-b-antoniobia">
+        <div className="flex items-center justify-around p-4 font-extrabold text-2xl border-b-2 border-b-antoniobia">
             DevLinks
             {/* <hr></hr> */}
             <Link
