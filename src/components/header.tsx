@@ -10,7 +10,7 @@ export function Header() {
                 href="https://github.com/antoniobiasotti/devlinks"
             >
                 <Image
-                    src="/public/" width={65} height={65} alt=""
+                    src="/github.svg" width={65} height={65} alt=""
                 >
                 </Image>
             </Link>
