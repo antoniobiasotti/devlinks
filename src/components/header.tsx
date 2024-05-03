@@ -18,8 +18,7 @@ export function Header() {
                     width={32} 
                     height={32} 
                     alt=""
-                >
-                </Image>
+                />
             </Link>
         </div>
     )
