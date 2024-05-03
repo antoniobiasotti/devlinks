@@ -3,9 +3,12 @@ import Image from 'next/image'
 
 export function Header() {
     return (
-        <div className="bg-slate-400 flex items-center justify-around p-4 font-bold text-2xl border-b-2 border-b-antoniobia">
-            DevLinks
-            {/* <hr></hr> */}
+        <div className="border-2 border-slate-50 flex items-center justify-around p-4 font-bold text-2xl border-b-2 border-b-antoniobia">
+            <Link
+                href="#"
+            >
+                DevLinks
+            </Link>
             <Link
                 href="https://github.com/antoniobiasotti/devlinks"
                 target='blank'
