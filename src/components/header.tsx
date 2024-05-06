@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Header() {
     return (
-        <div className="border-2 border-slate-50 flex items-center justify-around p-4 font-bold text-2xl border-b-2 border-b-antoniobia">
+        <div className="border-[0.5px] rounded-sm border-b-2 border-b-antoniobia border-slate-50 flex items-center justify-around p-4 font-bold text-2xl">
             <Link
                 href="#"
             >
