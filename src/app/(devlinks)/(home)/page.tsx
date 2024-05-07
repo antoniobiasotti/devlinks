@@ -6,7 +6,7 @@ export default async function Home() {
   await new Promise(resolve => setTimeout(resolve, 1000))
 
   return (
-    <main className="border-2 border-slate-50 justify-center items-center mt-4">
+    <main className="flex flex-col gap-3 border-2 border-slate-50 justify-center items-center mt-4 py-6">
       <Header />
       <div className="bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-5 inline-flex rounded">
         <div className="w-96 h-44 flex-col items-center gap-2 inline-flex">
