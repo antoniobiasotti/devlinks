@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Header } from "@/components/header";
+import { MainNavigationBar } from "@/components/Navbar";
 
 export default async function Home() {
 
@@ -9,6 +10,7 @@ export default async function Home() {
     <main className="flex flex-col gap-3 bg-zinc-950 border-2 border-slate-50 justify-center items-center mt-4 py-6">
       <div className="flex flex-col gap-8">
         <Header />
+        <MainNavigationBar/>
         <div className="bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-5 inline-flex rounded">
           <div className="w-96 h-44 flex-col items-center gap-2 inline-flex">
             <h2 className="font-bold">Sobre</h2>
