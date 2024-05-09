@@ -9,7 +9,14 @@ export function Header() {
             >
                 DevLinks
             </Link>
-            <Link
+            <button>
+               <Image src="/darkmode.svg" 
+                    width={32} 
+                    height={32} 
+                    alt=""
+                />
+            </button>
+            {/* <Link
                 href="https://github.com/antoniobiasotti/devlinks"
                 target='blank'
             >
@@ -19,7 +26,7 @@ export function Header() {
                     height={32} 
                     alt=""
                 />
-            </Link>
+            </Link> */}
         </div>
     )
 }
