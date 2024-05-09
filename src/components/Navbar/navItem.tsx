@@ -7,12 +7,10 @@ export interface NavItemProps {
 export function NavItem({ title }: NavItemProps) {
      return (
           <div className="flex">
-               <Link 
-                    href="#"
-               />
-               <span className="hover:text-slate-300 cursor-pointer">
+               <Link href="#" className="relative hover:text-slate-300">
                     {title}
-               </span>
+                    <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-white rounded-full transition duration-300"></span>
+               </Link>
           </div>
      )
 }
