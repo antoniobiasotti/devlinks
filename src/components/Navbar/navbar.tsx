@@ -2,7 +2,7 @@ import { NavItem } from "./navItem";
 
 export function NavBar() {
     return (
-        <div className="flex justify-between gap-4">
+        <div className="flex justify-around gap-4 px-4">
             <NavItem title="Algoritmos"/>
             <NavItem title="APIs"/>
             <NavItem title="Animações"/>

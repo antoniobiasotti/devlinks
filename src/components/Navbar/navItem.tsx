@@ -1,13 +1,18 @@
+import Link from "next/link"
+
 export interface NavItemProps {
      title: string,
 }
 
 export function NavItem({ title }: NavItemProps) {
      return (
-          <a href="#" className="hover:text-slate-300">
-               <span>
+          <div className="flex">
+               <Link 
+                    href="#"
+               />
+               <span className="hover:text-slate-300 cursor-pointer">
                     {title}
                </span>
-          </a>
+          </div>
      )
 }
