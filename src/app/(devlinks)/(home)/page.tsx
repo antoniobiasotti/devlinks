@@ -13,14 +13,14 @@ export default async function Home() {
         <MainNavigationBar/>
         <div className="bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-5 inline-flex rounded">
           <div className="w-96 h-44 flex-col items-center gap-2 inline-flex">
-            <h2 className="font-bold">Sobre</h2>
-            <p className="text-justify">
+            <h2 className="font-bold selection:bg-neutral-400 selection:text-zinc-950">Sobre</h2>
+            <p className="text-justify selection:bg-neutral-400 selection:text-zinc-950">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error assumenda ab ratione doloribus ea debitis, a perferendis libero alias, in impedit sequi iste, fuga exercitationem tenetur mollitia ipsum dolores aperiam
             </p>
           </div>
           <div className="w-96 h-44 flex-col justify-start items-center gap-2 inline-flex">
-            <h2 className="font-bold">De onde veio a ideia?</h2>
-            <p className="text-justify">
+            <h2 className="font-bold selection:bg-neutral-400 selection:text-zinc-950">De onde veio a ideia?</h2>
+            <p className="text-justify selection:bg-neutral-400 selection:text-zinc-950">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatibus quam iure blanditiis odio temporibus non veritatis fugit, odit nihil, quis labore excepturi, cupiditate impedit deleniti? Culpa qui similique soluta?
             </p>
           </div>

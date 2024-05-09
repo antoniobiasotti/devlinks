@@ -4,7 +4,7 @@ export interface NavItemProps {
 
 export function NavItem({ title }: NavItemProps) {
      return (
-          <a href="">
+          <a href="#" className="hover:text-slate-300">
                <span>
                     {title}
                </span>
