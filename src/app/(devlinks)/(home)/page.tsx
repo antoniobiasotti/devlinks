@@ -12,7 +12,7 @@ export default async function Home() {
       <div className="space-y-8 justify-center">
         <Header />
         <MainNavigationBar/>
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center">
           <div className="w-3/4 bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-2 inline-flex border border-zinc-700 rounded">
             <div className="w-96 flex-col items-center gap-2 inline-flex">
               <h2 className="font-bold">About</h2>
