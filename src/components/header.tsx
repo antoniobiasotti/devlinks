@@ -16,17 +16,6 @@ export function Header() {
                     alt=""
                 />
             </button>
-            {/* <Link
-                href="https://github.com/antoniobiasotti/devlinks"
-                target='blank'
-            >
-                <Image
-                    src="/github.svg" 
-                    width={32} 
-                    height={32} 
-                    alt=""
-                />
-            </Link> */}
         </div>
     )
 }
