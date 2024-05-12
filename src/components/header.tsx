@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export function Header() {
     return (
-        <div className="flex justify-between bg-zinc-800 border-[0.5px] rounded-sm border-slate-200 p-4 font-bold text-2xl">
+        <div className="flex justify-between bg-zinc-800 border border-zinc-700 rounded-lg px-6 py-4 font-semibold text-2xl">
             <Link
                 href="#"
             >
