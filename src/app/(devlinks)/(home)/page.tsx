@@ -12,16 +12,16 @@ export default async function Home() {
       <div className="space-y-8 justify-center">
         <Header />
         <MainNavigationBar/>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center font-light">
           <div className="w-3/4 bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-2 inline-flex border border-zinc-700 rounded">
             <div className="w-96 flex-col items-center gap-2 inline-flex">
-              <h2 className="font-bold">About</h2>
+              <h2 className="font-semibold">About</h2>
               <div className="text-justify whitespace-pre-line">
                 DevLinks is a purely recreational and personal project. In each tab, you'll find three (3) of my top tool choices for the subject. 
               </div>
             </div>
             <div className="w-96 h-44 flex-col justify-start items-center gap-2 inline-flex">
-              <h2 className="font-bold">Where the idea come from?</h2>
+              <h2 className="font-semibold">Where the idea come from?</h2>
               <div className="text-justify whitespace-pre-line">
               When I started as a web developer, I used to spend hours searching for tools that would improve my workflows. But as time passed, I was able to distinguish what would be useful and what was just a distraction, so I decided to gather all here.
               <span className="block mt-4">Enjoy.</span>
