@@ -14,7 +14,7 @@ export function SettingsTabs() {
             value="tab1"
             title="Home"
             isSelected={currentTab === 'tab1'}
-          />
+        />
         <TabItem
           value="tab2"
           title="Algorithms"
