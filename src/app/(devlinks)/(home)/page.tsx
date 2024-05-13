@@ -1,6 +1,3 @@
-import { Header } from "@/components/header";
-import { MainNavigationBar } from "@/components/Navbar";
-import { SettingsTabs } from "@/components/SettingsTabs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,10 +6,7 @@ export default async function Home() {
   await new Promise(resolve => setTimeout(resolve, 1000))
 
   return (
-    <main className="h-full flex gap-3 bg-zinc-950 rounded-lg justify-center py-6 border border-slate-500">
       <div className="space-y-8 justify-center">
-        <Header />
-        <SettingsTabs/>
         <div className="flex flex-col justify-center items-center font-light p-4">
           <div className="w-full h-full bg-zinc-800 px-10 py-5 flex-col justify-center items-center gap-2 inline-flex border border-zinc-700 rounded">
             <div className="w-96 flex-col items-center gap-2 inline-flex">
@@ -46,6 +40,5 @@ export default async function Home() {
           </div>
         </div>
       </div>
-    </main>
   );
 }
