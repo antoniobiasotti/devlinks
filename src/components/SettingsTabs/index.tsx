@@ -9,47 +9,47 @@ export function SettingsTabs() {
 
   return (
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
-      <Tabs.List className="mt-6 flex w-full items-center gap-4 border-b border-zinc-200">
+      <Tabs.List className="mt-6 flex w-full justify-around gap-4 border-b border-zinc-800">
         <TabItem
           value="tab1"
-          title="My Details"
+          title="Algorithms"
           isSelected={currentTab === 'tab1'}
         />
         <TabItem
           value="tab2"
-          title="Profile"
+          title="APIs"
           isSelected={currentTab === 'tab2'}
         />
         <TabItem
           value="tab3"
-          title="Password"
+          title="Animations"
           isSelected={currentTab === 'tab3'}
         />
-        <TabItem value="tab4" title="Team" isSelected={currentTab === 'tab4'} />
-        <TabItem value="tab5" title="Plan" isSelected={currentTab === 'tab5'} />
+        <TabItem value="tab4" title="Icons" isSelected={currentTab === 'tab4'} />
+        <TabItem value="tab5" title="Blogs" isSelected={currentTab === 'tab5'} />
         <TabItem
           value="tab6"
-          title="Billing"
+          title="Colors"
           isSelected={currentTab === 'tab6'}
         />
         <TabItem
           value="tab7"
-          title="Email"
+          title="Tools"
           isSelected={currentTab === 'tab7'}
         />
         <TabItem
           value="tab8"
-          title="Notifications"
+          title="Fonts"
           isSelected={currentTab === 'tab8'}
         />
         <TabItem
           value="tab9"
-          title="Integrations"
+          title="Ilustrations"
           isSelected={currentTab === 'tab9'}
         />
         <TabItem
           value="tab10"
-          title="API"
+          title="UI"
           isSelected={currentTab === 'tab10'}
         />
       </Tabs.List>
