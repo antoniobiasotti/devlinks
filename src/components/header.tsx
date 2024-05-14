@@ -6,7 +6,7 @@ export function Header() {
     return (
         <div className="flex justify-between items-center bg-zinc-800 border border-zinc-700 rounded-lg px-6 py-4 font-semibold text-3xl">
             <Link
-                href="#"
+                href="/"
             >
                 DevLinks
             </Link>

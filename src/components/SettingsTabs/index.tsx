@@ -11,11 +11,6 @@ export function SettingsTabs() {
     <Tabs.Root value={currentTab} onValueChange={setCurrentTab}>
       <Tabs.List className="mt-6 flex w-full justify-around gap-4 border-b border-zinc-800">
         <TabItem
-            value="tab1"
-            title="Home"
-            isSelected={currentTab === 'tab1'}
-        />
-        <TabItem
           value="tab2"
           title="Algorithms"
           isSelected={currentTab === 'tab2'}

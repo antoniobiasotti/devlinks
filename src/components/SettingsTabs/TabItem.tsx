@@ -2,6 +2,7 @@
 
 import * as Tabs from '@radix-ui/react-tabs'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export interface TabItemsProps {
   value: string
@@ -15,7 +16,9 @@ export function TabItem({ value, title, isSelected = false }: TabItemsProps) {
       value={value}
       className="relative px-1 pb-4 text-lg font-medium text-zinc-500 hover:text-violet-700 data-[state=active]:text-violet-700"
     >
-      <span>{title}</span>
+      <Link href={`/session/${title}`}>
+        <span>{title}</span>
+      </Link>
 
       {isSelected && (
         <motion.div
