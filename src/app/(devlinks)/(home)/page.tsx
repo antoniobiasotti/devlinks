@@ -6,15 +6,15 @@ export default async function Home() {
   await new Promise(resolve => setTimeout(resolve, 1000))
 
   return (
-          <div className="h-full w-full flex flex-col items-center justify-center gap-2 px-10 py-5 border border-zinc-700 rounded text-lg">
-            <div className="w-3/4 flex flex-col items-center justify-center border border-zinc-700">
-              <div className="flex-col items-center gap-2 inline-flex">
+          <div className="h-full flex flex-col items-center gap-2 px-10 py-5 border border-zinc-700 rounded text-lg">
+            <div className="w-3/4 flex flex-col items-center justify-center gap-4 border border-zinc-700">
+              <div className="flex-col items-center inline-flex">
                 <h2 className="font-semibold">About</h2>
-                <p>
+                <p className="text-center">
                   DevLinks is a purely recreational and personal project. In each tab, you'll find three (3) of my top tool choices for the subject. 
                 </p>
               </div>
-              <div className="flex-col items-center gap-2 inline-flex">
+              <div className="flex-col items-center inline-flex">
                 <h2 className="font-semibold">Where the idea come from?</h2>
                 <p className="text-center">
                 When I started as a web developer, I used to spend hours searching for tools that would improve my workflows. But as time passed, I was able to distinguish what would be useful and what was just a distraction, so I decided to gather all here.
