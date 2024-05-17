@@ -1,6 +1,6 @@
+## About
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## About
 DevLinks is a purely recreational and personal project. In each tab, you will find three (3) of my top tool choices for the subject.
 ## Where the idea came from?
 When I started as a web developer, I used to spend hours searching for tools that would improve my workflows. But as time passed, I was able to distinguish what would be useful and what was just a distraction, so I decided to gather all here for you.
