@@ -2,73 +2,83 @@
      "sessions": [
        {
          "id": 1,
-         "title": "Algorithms",
-         "image": "/moletom-never-stop-learning.png",
-         "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-         "featured": true
-       },
-       {
-         "id": 2,
-         "title": "APIs",
-         "image": "/moletom-ai-side.png",
-         "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-         "featured": true
-       },
-       {
-         "id": 3,
-         "title": "Animations",
-         "image": "/camiseta-dowhile-2022.png",
-         "description": "Camiseta fabricada com 100% de algodão.",
-         "featured": true
-       },
-       {
-         "id": 4,
-         "title": "Icons",
-         "image": "/moletom-java.png",
-         "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-         "featured": false
-       },
-       {
-         "id": 5,
-         "title": "Blogs",
-         "image": "/moletom-ia-p-devs.png",
-         "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-         "featured": false
-       },
-       {
-        "id": 5,
-        "title": "Colors",
-        "image": "/moletom-ia-p-devs.png",
-        "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-        "featured": false
-      },
-      {
-        "id": 5,
-        "title": "Tools",
-        "image": "/moletom-ia-p-devs.png",
-        "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-        "featured": false
-      },
-      {
-        "id": 5,
-        "title": "Fonts",
-        "image": "/moletom-ia-p-devs.png",
-        "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-        "featured": false
-      },
-      {
-        "id": 5,
-        "title": "Ilustrations",
-        "image": "/moletom-ia-p-devs.png",
-        "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-        "featured": false
-      },
-      {
-        "id": 5,
-        "title": "UI",
-        "image": "/moletom-ia-p-devs.png",
-        "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
-        "featured": false
-      }
+         "title": "Algorithms", 
+         "cards": {
+           "id": 2,
+           "title": "APIs"
+          }
+        },
+        {
+          "id": 2,
+          "title": "APIs",
+          "cards": {
+            "image": "/moletom-never-stop-learning.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 3,
+          "title": "Animations",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 4,
+          "title": "Icons",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 5,
+          "title": "Blogs",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 6,
+          "title": "Tools",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 7,
+          "title": "Fonts",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 8,
+          "title": "Ilustrations",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        },
+        {
+          "id": 9,
+          "title": "UI",
+          "cards": {
+            "image": "/moletom-ai-side.png",
+            "description": "Moletom fabricado com 88% de algodão e 12% de poliéster.",
+            "featured": true
+          }
+        }
      ]
    }
